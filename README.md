@@ -1,2 +1,2 @@
 # Mi_Portafolio
-[Mermaid](https://jfranciscobahena.github.io/Mi_Portafolio/)
+[Vista Previa](https://jfranciscobahena.github.io/Mi_Portafolio/)
