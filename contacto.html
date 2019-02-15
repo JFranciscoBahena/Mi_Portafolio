@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francisco Bahena | Web Developer</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+  </head>
+      <body>
+        <header>
+        <a href="index.html" id="logo">
+          <h1>Francisco Bahena</h1>
+          <h2>Web Developer</h2>
+        </a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Portafolio</a></li>
+            <li><a href="acerca.html">Acerca de</a></li>
+            <li><a href="contacto.html"class="selected">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+        <div id="wrapper">
+          <section id="primary">
+            <h3>Información General</h3>
+            <p>Actualmente estoy buscando trabajo scomo programador, pero tambien estoy disponible como instructor o para trabajos personalizados de desarrollo de aplicaciones moviles o web. Si tienes alguna duda no dudes en contactarme. </p>
+          </section>
+          <section id="secondary">
+            <h3>Detalles de contacto</h3>
+            <ul class="contact-info">
+              <li class="telefono"><a href="tel: 654037920">6564037920</a></li>
+              <li class="whatsapp"><a href="tel: +52654037920">+526564037920</a></li>
+              <li class="email"><a href="mailto:JFrancisco.Bahena@hotmail.com">JFrancisco.Bahena@hotmail.com</a></li>
+              <li class="facebook"><a href="https://www.facebook.com/francisco.bahenajaviers">Francisco Bahena</a></li>
+              <li class="twitter"><a href="https://twitter.com/intent/tweet?screen_name=FranciscoBahena">@FranciscoBahena</a></li>
+              <li class="instagram"><a href="https://www.instagram.com/jfrancisco.bahena/?hl=es-la">@JFrancisco.Bahena</a></li>
+            </ul>
+          </section>
+          <section>
+              <form id="contactForm" method="post" action="php/contact-form.php">
+                <div>
+                  <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required />
+                </div>          
+                <div>
+                  <input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
+                </div>        
+                <div>
+                  <input class="form-control" id="subject" type="text" name="subject" placeholder="Asunto" required>
+                </div>
+                <div>
+                  <textarea class="form-control" id="message" name="message" placeholder="Mensaje" rows="5" required></textarea>
+                </div>
+                <div>
+                  <input type="submit" class="form-send" value="Enviar">
+                </div>
+              </form>
+            </section>
+    </a>
+    <footer>
+      <p>&copy; 2019 Francisco Bahena</p>
+    </footer>
+  </body>
+</html>
